@@ -1,0 +1,35 @@
+//mixins catalogue for use in any specific theme
+
+//transitions
+@mixin transition($property:all, $duration:$base-duration, $timing:null){
+  transition: $property $duration $timing;
+}
+
+//push in any direction for a number of ems
+@mixin push($direction, $value){
+  margin#{-$direction}: $base-spacing*$value;
+  
+  @if $direction == vertical {
+    $direction:null;
+    margin: $base-spacing*$value 0;
+  }
+  
+  @if $direction == horizontal {
+    $direction:null;
+    margin: 0 $base-spacing*$value;
+  }
+}
+
+//circle element
+@mixin circle($background:$action-color, $color:$black, $text-size:$base-font-size, $size:1){
+  display: inline-block;
+  background: $background;
+  font-size: $text-size;
+  color: $color;
+  border-radius: 50%;
+  width: $base-spacing*$size;
+  height: $base-spacing*$size;
+  line-height: $base-spacing*$size;
+  padding-right: $size*.03em;
+  text-align: center;
+}
