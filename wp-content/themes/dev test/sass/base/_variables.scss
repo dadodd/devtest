@@ -1,5 +1,5 @@
 // Typography
-$base-font-family: $helvetica;
+$base-font-family: 'Titillium Web', sans-serif;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
@@ -20,6 +20,12 @@ $base-z-index: 0;
 $white: #fff;
 $black: #000;
 $light-gray: #eaeaea;
+
+$red: #E54B4B;
+$dark-gray: #232C33;
+$bg-css: #F7F0F5;
+$bg-js: #F5E6E8;
+$bg-php: #FFFFFC;
 
 // Border
 $base-border-color: $light-gray;

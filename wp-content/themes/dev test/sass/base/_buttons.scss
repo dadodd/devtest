@@ -1,10 +1,11 @@
 #{$all-buttons},
 .button {
   appearance: none;
-  background-color: $light-gray;
-  border: $base-border;
+  -webkit-appearance: none;
+  background-color: $red;
+  border: none;
   border-radius: $base-border-radius;
-  color: #fff;
+  color: $white;
   cursor: pointer;
   display: inline-block;
   font-family: $heading-font-family;
@@ -22,7 +23,7 @@
 
   &:hover,
   &:focus {
-    background-color: $light-gray;
+    background-color: darken($red, 10);
     color: #fff;
   }
 

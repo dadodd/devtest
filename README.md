@@ -26,9 +26,11 @@ Knowledge prerequisites you'll need in order to take this test:
   
 These are the qualities we'll be considering while reviewing your solutions:
 * focus and precision in following instructions
+* analytical skills
 * attention to detail
 * resourcefullness and understanding of the code already in place. How well you use the resources at hand.
 * code optimization
+* how well you test your code - ability to isolate and squash bugs
 * how well you'll be able to adjust to the project's code formatting
 * the quality of your commit messages
 * how well you communicate during and after the task is finished
@@ -41,28 +43,23 @@ This is the part that everyone should be able to do themselves, regardless of be
 1. set up local environment
 2. fork this repo into your account and plug it into your local WP install
 3. pick Fairhead Creative Developers Test as your active theme
-4. set page-home.php as homepage, open it in your browser and pick your test from there
+4. set page-home.php as homepage, open it in your browser and start your test from there
 
 ### CSS Test
-Access it by clicking the appropriate link. You'll be using SASS with SCSS syntax. The screen.scss file should compile to screen.css file.
-* css-one: modify markup only, without touching the css in order to get perfect overlapping with the underlaying image. This needs to work in Chrome.
-* css-two: fix the page in in Firefox, so that the underlaying image overlaps perfectly without breaking Chrome.
-* css-three (bonus round): mobile and tablet should look presentable
+* access it by clicking the appropriate button 
+* you'll be using SASS with SCSS syntax. The screen.scss file should compile to screen.css file.
+* we're using Bourbon, Neat & Bitters as base SASS libraries. Neat grid used in this test is Neat 1
+* placing your code into proper locations, being mindful of syntax and indentation and leaving a clean and readable file behind you will get you a long way. Being able to adapt, organized and respectful to other people's work counts
 
 ### JS Test
-Access it by clicking the apropriate link. Use Grunt to compile everything from /js folder into the production.js, then minify to production.min.js file
-* js-one: modify markup only without touching JavaScript so the click on the button will scroll the page down in 1.5 seconds 
-* js-two: fix the scroll on js-two page using JavaScript only without touching markup 
-* js-three (bonus round): use ScrollMagic plugin so that the square in the middle of the page will be picked up and scroll along while the page is scrolling down. When the page scrolls to bottom, the square should be animate to scroll down to the bottom of the page into the row of squares, and the row should dissapear, sort of like Tetris simulation
+* access it by clicking the apropriate button
+* use Grunt to compile everything from /js folder into the production.js, then minify to production.min.js file
+* you have all the libraries you need present in the theme folder
+* placing your code into proper locations, being mindful of syntax and indentation and leaving a clean and readable file behind you will get you a long way. Being able to adapt, organized and respectful to other people's work counts
 
 ### PHP/Backend Test
-Access it by clicking the apropriate link.
-* php-one: all of the pages should get body class that equals their template name, except for this page which should loose all the classes but the template-based ones.
-* php-two: use ACF to expose the list present on the page in the page editor. These are the elements that should be editable, and users shouldn't have any other option present in the page editor, apart from these: 
-  * li element text
-  * button text
-  * button's id attribute
-* php-three (bonus round): when you submit the form, it should open the confirmation modal at the center of the page that lists all the options picked by the user and has a couple of buttons, "OK" and "Cancel". "Cancel" will close the modal, and "OK" will send you to the front page of the test along with the data.
+* access it by clicking the apropriate button.
+* placing your code into proper locations, being mindful of syntax and indentation and leaving a clean and readable file behind you will get you a long way. Being able to adapt, organized and respectful to other people's work counts
 
 ### After you've finished with the test
 Add me (Denis) as a collaborator to your repo, and drop me a note outlining what you've done inside it, so I can clone, pull and review.

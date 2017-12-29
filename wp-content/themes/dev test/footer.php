@@ -1,8 +1,6 @@
   <footer>
-  	<div class="footer-inner">
-  		<?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
-      <a class="nav-logo" href="/"><?php bloginfo( 'name' ); ?></a>
-      <?php bloginfo('description'); ?>
+  	<div class="container">
+  		<p>&copy;<span class="year-current"></span> Fairhead Creative</p>
   	</div>
   </footer>
 

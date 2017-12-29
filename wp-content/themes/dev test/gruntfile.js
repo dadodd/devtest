@@ -7,7 +7,8 @@ module.exports = function(grunt) {
       dist: {
         src: [
           'js/libs/jquery.min.js',
-          'js/theme/scripts.js'
+          'js/libs/ScrollMagic.min.js',
+          'js/theme/*'
         ],
         dest: 'js/production.js',
       }
