@@ -30,11 +30,10 @@ Thumbs.db
 # Ignore everything in the "wp-content" directory, except ...
 wp-content/*
 !wp-content/plugins/
-!wp-content/themes/dev test/
-wp-content/themes/twentyseventeen/
+!wp-content/themes/
  
 # Ignore everything in the "plugins" directory, except ...
 wp-content/plugins/*
 
 # Ignore node (win filename issues)
-wp-content/themes/THEME FOLDER NAME HERE/node_modules
+wp-content/themes/dev test/node_modules
