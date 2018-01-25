@@ -23,23 +23,6 @@ function helipad_scripts() {
 }
 add_action('wp_enqueue_scripts', 'helipad_scripts');
 
-
-// Remove extra data from the front of archive titles.
-add_filter( 'get_the_archive_title', function ($title) {
-  if ( is_category() ) {
-    $title = single_cat_title( '', false );
-  } elseif ( is_tag() ) {
-    $title = single_tag_title( '', false );
-  } elseif ( is_author() ) {
-    $title = '<span class="vcard">' . get_the_author() . '</span>' ;
-  }
-  return $title;
-});
-
-// Add post thumbnails.
-add_theme_support( 'post-thumbnails' );
-
-
 // Remove stock WP footer Message
 function wpse_edit_footer() {
   add_filter( 'admin_footer_text', 'wpse_edit_text', 11 );

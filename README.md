@@ -37,34 +37,36 @@ These are the qualities we'll be considering while reviewing your solutions:
 
 Instructions
 ---
+The task is to fix or modify the Homepage of the theme provided with this repository.
 
 ### General section (or setting things up and starting the test)
 This is the part that everyone should be able to do themselves, regardless of being front or back-end:
 1. set up local environment
-2. fork this repo into your account and plug it into your local WP install
-3. pick Fairhead Creative Developers Test as your active theme
-4. set page-home.php as homepage, open it in your browser and start your test from there
+2. fork this repo into your account and plug it into your local Wordpress install
+3. rename the dev test theme folder to "dev test - YOUR NAME" and set the theme name as "Fairhead Creative Developers Test - YOUR NAME"
+4. set the newly created theme as as your active theme 
+5. set page-home.php as homepage, open it in your browser and start your test from there
 
 ### CSS Test
-* access it by clicking the appropriate button 
-* you'll be using SASS with SCSS syntax. The screen.scss file should compile to screen.css file.
-* we're using Bourbon, Neat & Bitters as base SASS libraries. Neat grid used in this test is Neat 1
-* placing your code into proper locations, being mindful of syntax and indentation and leaving a clean and readable file behind you will get you a long way. Being able to adapt, organized and respectful to other people's work counts
+* access it by clicking the appropriate button from the Homepage hero section
+* you'll be using SASS with SCSS syntax. The screen.scss file should compile to screen.css file (~PATH/sass sass --watch screen.scss:..\css\screen.css)
+* we're using Bourbon, Neat & Bitters as base SASS libraries, and they're already installed and set up. Neat grid used in this test is Neat 1
+* placing your code into proper locations, being mindful of syntax and indentation and leaving a clean and readable file behind you will get you a long way. Being able to adapt, organized and respectful to other people's work counts a lot
 
 ### JS Test
-* access it by clicking the apropriate button
+* access it by clicking the apropriate button from the Homepage hero section
 * use Grunt to compile everything from /js folder into the production.js, then minify to production.min.js file
-* you have all the libraries you need present in the theme folder
-* placing your code into proper locations, being mindful of syntax and indentation and leaving a clean and readable file behind you will get you a long way. Being able to adapt, organized and respectful to other people's work counts
+* you have all the libraries you need for this test present in the theme folder
+* placing your code into proper locations, being mindful of syntax and indentation and leaving a clean and readable file behind you will get you a long way. Being able to adapt, organized and respectful to other people's work counts a lot
 
 ### PHP/Backend Test
-* access it by clicking the apropriate button.
-* placing your code into proper locations, being mindful of syntax and indentation and leaving a clean and readable file behind you will get you a long way. Being able to adapt, organized and respectful to other people's work counts
+* access it by clicking the apropriate button from the Homepage hero section
+* placing your code into proper locations, being mindful of syntax and indentation and leaving a clean and readable file behind you will get you a long way. Being able to adapt, organized and respectful to other people's work counts a lot
 
 ### After you've finished with the test
-Add me (Denis) as a collaborator to your repo, and drop me a note outlining what you've done inside it, so I can clone, pull and review.
+Add me (Denis) as a collaborator to your repo, and drop me a note outlining what you've done inside it, so I can pull and review.
 Your message to me should consist of these details:
-1. outline what you did in your task. Feel free to go into as much technical details you want. Boast what you did better than the current codebase, and defend if you've made decisions you feel need defending
-2. show me how I should configure wp-admin in order to view your modifications properly (as if you were delivering a project to a client–assume my admins have set up a local wp install with nothing on it)
+1. outline what you did in each of your tasks. Feel free to go into as much technical details you want. Boast what you did better than the current codebase, and defend if you've made decisions you feel need defending
+2. show me how I should set up wp-admin in order to view your modifications properly (as if you were delivering a project to a client–assume I have set up a local wp install with nothing on it)
 3. any comments you might have, either on the codebase, or this test
-4. your contact details: First name, last name, Skype handle, email, your location and/or time zone, preferred working hours, and the number of hours you're available for work on weekly basis 
+4. your contact details: First name, last name, Skype handle, email, your location and/or time zone, preferred working hours, and maximum number of hours you may be available for work on weekly basis 

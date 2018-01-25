@@ -2,7 +2,7 @@
   <div class="content-container">
     <h2>WP backend and PHP test <span class="title-under">with some JS, CSS and HTML to boot</span></h2>
     <ol>
-      <li><strong>Part one:</strong> this page should lose all the classes but the template-based one.</li>
+      <li><strong>Part one:</strong> this page should lose all the classes but the template-based one (home).</li>
       <li><strong>Part two:</strong> use ACF to expose the list below in the page editor. These are the elements that should be editable, and users shouldn't have any other option present in the page editor, apart from these: 
         <ul>
           <li>label element text</li>
