@@ -21,7 +21,7 @@ Knowledge prerequisites you'll need in order to take this test:
   * install wordpress locally
   * fork and plug this repo into your local WP install. for this bit you'll need to be familiar with:
     * Git
-    * Wordpress file strusture
+    * Wordpress file structure
   * know your way around Wordpress wp-admin area
   
 These are the qualities we'll be considering while reviewing your solutions:
