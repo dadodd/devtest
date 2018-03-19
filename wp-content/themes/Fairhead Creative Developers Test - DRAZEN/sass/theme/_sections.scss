@@ -85,14 +85,20 @@ body > header {
     }
   }
 }
+
+
 /*button margin for mobile*/
-@media screen and (max-width: 375px)  {
+@media screen and (max-width: 375px) 
+   {
 
-.button {
+	.button {
     
-    margin-top: 1em;
-}}
+		margin-top: 1em;
+			}
+	}
 
+			
+			
 .content-css {
   
   .container,
@@ -100,9 +106,17 @@ body > header {
     border-bottom: 16px solid $bg-css;   
   }
   
+  .grid-css {
+	display: grid;
+	grid-template-columns: 29.9095438348% 29.9095438348% 29.9095438348%;
+	grid-column-gap: 5.1356842478%;
+  
+		   }
+  
   article {
-    @include span-columns(4);
-    text-align: center;
+	text-align: center;
+   /* @include span-columns(4);*/
+    
 	
 
     
@@ -113,24 +127,52 @@ body > header {
     ol {
       text-align: left;
     }
-	/*responsive layout*/
-	  @include media(min-width 320px max-width 780px, 6) {
-    @include span-columns(6);
-  }
 	
 	
   }
+  
+ /*Css Section Responsive layout*/
+@include media( max-width 780px) 
+ 
+ {
+    
+  .grid-css {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-row-gap: 4em;
+			}
+			
+			
+   article p {
+	text-align:center;
+			  }		
+ } 
+  
 }
+
+/*Border roundness On smaller screnn*/
+@include media( max-width 1220px) 
+ {
+	
+   .content-container
+		{
+	border-radius: em(0);
+		}
+ }
+
+
 /*Paragraph CSS change- firefox issue*/
 @media screen and (min-width: 720px)  {
-.content-js p {
-    max-width: 372px !important;
-    }
-}
+	.content-js p {
+		max-width: 372px !important;
+		}
+	}
+
+
 .content-js {
-  text-align: center;
+		text-align: center;
   
-  .container,
+ .container,
   .content-container {
     border-bottom: 16px solid $bg-css;  
       

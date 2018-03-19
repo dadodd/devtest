@@ -23,6 +23,14 @@ function helipad_scripts() {
 }
 add_action('wp_enqueue_scripts', 'helipad_scripts');
 
+
+function wpb_adding_scripts() {
+wp_register_script('js_new_script', get_template_directory_uri() . '/js/js-section-button.js', array('jquery'),'1.1', true);
+wp_enqueue_script('js_new_script');
+}
+  
+add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts' );  
+
 // Remove stock WP footer Message
 function wpse_edit_footer() {
   add_filter( 'admin_footer_text', 'wpse_edit_text', 11 );

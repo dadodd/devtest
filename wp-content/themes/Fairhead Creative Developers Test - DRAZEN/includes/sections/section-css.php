@@ -1,7 +1,7 @@
 <section class="content-css" id="css">
   <div class="content-container">
     <h2>CSS test <span class="title-under">with a bit of HTML thrown in <br>Everything you may need is in _sections.scss file.</span></h2>
-      <article>
+     <div class="grid-css"> <article>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/css-markup.png">
         <h3>Part one</h3>
         <p>Modify <strong>markup only, without touching the css</strong> in order to get perfect overlapping with the underlaying image (click the button) at screen resolutions bigger than 1280px width. This needs to work in Chrome. There's also something semantically wrong with this section's markup. Fix it.</p>
@@ -21,5 +21,5 @@
         <p>(bonus round): Mobile and tablet should look presentable. Improvise.</p>
       </article>
       <div class="section-icon"><?php get_template_part('includes/svg/css'); ?></div>
-    </div>
+    </div></div>
 </section>
